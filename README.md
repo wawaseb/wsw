@@ -4,4 +4,4 @@
 ## What ?
 
 Monitor **ETH**, **BTC** and **XRP**, select your convenient frequencies and define alerts (vibrations / sounds).
-![Icon](https://raw.githubusercontent.com/wawaseb/wsw/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png)
+<p align="center">![Icon](https://raw.githubusercontent.com/wawaseb/wsw/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png)</p>

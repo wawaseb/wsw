@@ -1,0 +1,49 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.sw.SettingsActivity$GeneralPreferenceFragment"
+        android:title="@string/pref_header_general"
+        android:icon="@drawable/ic_info_black_24dp" />
+
+    <header
+        android:fragment="com.sw.SettingsActivity$NotificationPreferenceFragment"
+        android:title="@string/pref_header_notifications"
+        android:icon="@drawable/ic_call_to_action_black_24dp"/>
+
+    <header
+        android:fragment="com.sw.SettingsActivity$DataSyncPreferenceFragment"
+        android:title="@string/pref_header_data_sync"
+        android:icon="@drawable/ic_notifications_black_24dp" />
+
+    <header
+        android:fragment="com.sw.SettingsActivity$WebPagePreferenceFragment"
+        android:title="Bitpanda : Buy/Sell"
+        android:icon="@drawable/ic_account_balance_black_24dp" />
+
+    <header
+        android:id="@+id/display_current"
+        android:title="Current ETH value"
+        android:icon="@drawable/ic_local_atm_black_24dp"/>
+
+    <header
+        android:id="@+id/display_current_BTC"
+        android:title="Current BTC value"
+        android:icon="@drawable/ic_attach_money_black_24dp"/>
+
+    <header
+        android:id="@+id/display_current_XRP"
+        android:title="Current XRP value"
+        android:icon="@drawable/ic_child_friendly_black_24dp"/>
+
+
+
+
+
+
+
+
+
+
+</preference-headers>

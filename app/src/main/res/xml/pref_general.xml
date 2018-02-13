@@ -1,0 +1,90 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<SwitchPreference
+        android:key="example_switch"
+        android:title="@string/pref_title_svc_launch"
+        android:summary="@string/pref_description_svc_launch"
+        android:summaryOff="Off"
+        android:summaryOn="On"
+        android:defaultValue="true" />-->
+
+    <SwitchPreference
+        android:key="alarm_state"
+        android:title="Start/Stop alarm"
+        android:summary="Start or stop watching"
+        android:summaryOff="Off"
+        android:summaryOn="On"
+        android:defaultValue="true" />
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:key="example_text"
+        android:title="@string/pref_title_display_name"
+        android:defaultValue="@string/pref_default_display_name"
+        android:selectAllOnFocus="true"
+        android:inputType="textCapWords"
+        android:capitalize="words"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <ListPreference
+        android:key="sync_frequency"
+        android:title="@string/pref_title_sync_frequency"
+        android:entries="@array/pref_sync_frequency_titles"
+        android:entryValues="@array/pref_sync_frequency_values"
+        android:defaultValue="360"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <CheckBoxPreference
+        android:key="atboot_switch"
+        android:title="@string/pref_title_svc_boot"
+        android:summary="@string/pref_description_svc_boot"
+        android:summaryOff="Off"
+        android:summaryOn="On"
+        android:defaultValue="true" />
+
+    <!-- This preference simply launches an intent when selected. Use this UI sparingly, per
+     design guidelines. -->
+    <Preference android:title="@string/pref_title_system_sync_settings">
+        <intent android:action="android.settings.SOUND_SETTINGS" />
+    </Preference>
+
+    <CheckBoxPreference
+        android:key="eth_watch"
+        android:title="@string/pref_title_eth_watch"
+        android:summary="@string/pref_description_eth_watch"
+        android:summaryOff="Off"
+        android:summaryOn="On"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="btc_watch"
+        android:title="@string/pref_title_btc_watch"
+        android:summary="@string/pref_description_btc_watch"
+        android:summaryOff="Off"
+        android:summaryOn="On"
+        android:defaultValue="false" />
+
+    <CheckBoxPreference
+        android:key="xrp_watch"
+        android:title="@string/pref_title_xrp_watch"
+        android:summary="@string/pref_description_xrp_watch"
+        android:summaryOff="Off"
+        android:summaryOn="On"
+        android:defaultValue="false" />
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <!-- <ListPreference
+        android:key="example_list"
+        android:title="@string/pref_title_add_friends_to_messages"
+        android:defaultValue="-1"
+        android:entries="@array/pref_example_list_titles"
+        android:entryValues="@array/pref_example_list_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />-->
+
+</PreferenceScreen>

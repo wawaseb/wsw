@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Wawa Stock Watcher [beta 0.4]</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General / service state</string>
+
+    <string name="pref_title_notifs_checkbox">Notify values</string>
+    <string name="pref_description_notifs_checkbox">Display current values in notfication zone</string>
+
+    <string name="pref_title_svc_boot">Service on (re)boot</string>
+    <string name="pref_description_svc_boot">Start with device</string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">Trader</string>
+
+    <string name="pref_title_def_min">Define MIN for ETH</string>
+
+    <string name="pref_title_def_max">Define MAX for ETH</string>
+
+
+    <string name="pref_title_def_min_btc">Define MIN for BTC</string>
+
+    <string name="pref_title_def_max_btc">Define MAX for BTC</string>
+
+
+    <string name="pref_title_def_min_xrp">Define MIN for XRP</string>
+
+    <string name="pref_title_def_max_xrp">Define MAX for XRP</string>
+
+
+    <string name="pref_title_vibdur_min">MIN vibrate duration (millisecs)</string>
+
+    <string name="pref_title_vibdur_max">MAX vibrate duration (millisecs)</string>
+
+    <string name="pref_min_filePicker">Sound MIN triggered</string>
+    <string name="pref_max_filePicker">Sound MAX triggered</string>
+
+    <string name="pref_eth_invest">Total ETH invested (€)</string>
+    <string name="pref_btc_invest">Total BTC invested (€)</string>
+    <string name="pref_xrp_invest">Total XRP invested (€)</string>
+
+    <string name="pref_title_eth_watch">Watch ETH</string>
+    <string name="pref_description_eth_watch">Bounds checking for ETH</string>
+
+    <string name="pref_title_btc_watch">Watch BTC</string>
+    <string name="pref_description_btc_watch">Bounds checking for BTC</string>
+
+    <string name="pref_title_xrp_watch">Watch XRP</string>
+    <string name="pref_description_xrp_watch">Bounds checking for XRP</string>
+
+
+
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Min/Max - Alerts</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>Frequently (~2 min)</item>
+        <item>Default (~6 min)</item>
+        <item>Power saving (~10 min)</item>
+
+</string-array>
+<string-array name="pref_sync_frequency_values">
+    <item>120</item>
+    <item>360</item>
+    <item>600</item>
+</string-array>
+
+    <string name="pref_title_system_sync_settings">System sound settings</string>
+
+    <string name="pref_header_notifications">View</string>
+    <string name="monitoring">Monitoring from website:</string>
+    <string name="power_ignore">Whitelist WsW (stop Doze)</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+</resources>

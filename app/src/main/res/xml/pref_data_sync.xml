@@ -1,0 +1,68 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+    <EditTextPreference
+        android:key="pref_title_def_min"
+        android:title="@string/pref_title_def_min"
+        android:defaultValue="0"
+        android:numeric="decimal"/>
+
+    <EditTextPreference
+        android:key="pref_title_def_max"
+        android:title="@string/pref_title_def_max"
+        android:defaultValue="999999"
+        android:numeric="decimal"/>
+
+    <EditTextPreference
+        android:key="pref_title_vibdur_min"
+        android:title="@string/pref_title_vibdur_min"
+        android:defaultValue="2000"
+        android:numeric="integer"/>
+
+    <EditTextPreference
+        android:key="pref_title_vibdur_max"
+        android:title="@string/pref_title_vibdur_max"
+        android:defaultValue="5000"
+        android:numeric="integer"/>
+
+    <RingtonePreference
+        android:defaultValue="content://settings/system/notification_sound"
+        android:key="pref_min_filePicker"
+        android:ringtoneType="all|ringtone"
+        android:title="@string/pref_min_filePicker" />
+
+    <RingtonePreference
+        android:defaultValue="content://settings/system/notification_sound"
+        android:key="pref_max_filePicker"
+        android:ringtoneType="all"
+        android:title="@string/pref_max_filePicker" />
+
+    <EditTextPreference
+        android:key="pref_title_def_min_btc"
+        android:title="@string/pref_title_def_min_btc"
+        android:defaultValue="0"
+        android:numeric="decimal"/>
+
+    <EditTextPreference
+        android:key="pref_title_def_max_btc"
+        android:title="@string/pref_title_def_max_btc"
+        android:defaultValue="999999"
+        android:numeric="decimal"/>
+
+    <EditTextPreference
+        android:key="pref_title_def_min_xrp"
+        android:title="@string/pref_title_def_min_xrp"
+        android:defaultValue="0"
+        android:numeric="decimal"/>
+
+    <EditTextPreference
+        android:key="pref_title_def_max_xrp"
+        android:title="@string/pref_title_def_max_xrp"
+        android:defaultValue="999999"
+        android:numeric="decimal"/>
+
+
+</PreferenceScreen>
